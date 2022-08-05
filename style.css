@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(255,0,106);
+background: linear-gradient(90deg, rgba(255,0,106,1) 0%, rgba(195,25,25,0.47102591036414565) 36%, rgba(218,63,107,1) 100%);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+form{
+    width: 25%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+.title{
+    padding: 10px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+}
+
+.ftitle{
+    text-align: center;
+    color: white;
+}
+
+.redwriting{
+    color: red;
+}
