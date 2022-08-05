@@ -16,12 +16,19 @@ background: linear-gradient(90deg, rgba(255,0,106,1) 0%, rgba(195,25,25,0.471025
 }
 
 form{
-    width: 30%;
+    width: 40%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     color: white;
     text-align: left;
+}
+
+.perInfo input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
 }
 
 
@@ -44,4 +51,9 @@ input{
 
 .redwriting{
     color: red;
+}
+
+.title{
+    display: block;
+    text-align: center;
 }
