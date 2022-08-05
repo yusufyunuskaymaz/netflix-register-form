@@ -10,18 +10,20 @@
 <body>
     <div class="container">
 
-        <div class="ftitle">
+        <div class="heading">
             <h1>NET<span class="redwriting">FLIX</span></h1>
             <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
         </div>
         
         <form action="">
+            <!-- Personal Info -->
             <label class="title" for="name">Name</label><br>
             <input type="text" placeholder="Enter your name" name="" id="name"><br>
             <label class="title" for="age">Age</label><br>
             <input type="text" placeholder="Age" name="" id="age"><br>
             <label class="title" for="email">Email</label><br>
             <input type="email" placeholder="Enter your email" name="" id="email"><br>
+            <!-- Content Type -->
             <label class="title" for="content">Content Type</label><br>
             <select name="contentType" id="content">
                 <option value="series">Content</option>
@@ -31,15 +33,15 @@
                 <option value="series">Content</option>
             </select><br>
             <!-- Movie Type -->
-            <label for="movieType">Movie Type</label><br>
+            <label class="title" for="movieType">Movie Type</label><br>
             <input type="checkbox" name="comedy" id="comedy">
             <label for="comedy">Comedy</label><br>
             <input type="checkbox" name="action" id="action">
             <label for="action">Action</label><br>
             <input type="checkbox" name="romance" id="romance">
-            <label for="romance">Romance</label><br><br><br>
+            <label for="romance">Romance</label><br><br>
             <!-- Gender -->
-            <label for="gender">Gender</label><br>
+            <label class="title" for="gender">Gender</label><br>
             <input type="radio" name="gender" id="male">
             <label for="male">Male</label><br>
             <input type="radio" name="gender" id="female">
@@ -47,7 +49,7 @@
 
             <!-- Feed Back -->
 
-            <label for="feedBack">Feed Back</label><br>
+            <label class="title" for="feedBack">Feed Back</label><br>
             <textarea placeholder="Any Comment..." name="feedback" id="feedBack" cols="23" rows="5"></textarea>
 
 
